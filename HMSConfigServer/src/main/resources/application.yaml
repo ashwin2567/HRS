@@ -1,0 +1,14 @@
+server:
+  port: 8085
+  
+spring:
+  application:
+    name: CONFIG-SERVERx
+
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ashwin2567/HRS-ConfigServer
+          clone-on-start: true
